@@ -1,0 +1,28 @@
+{
+  "name": "daytwoproject",
+  "version": "1.0.0",
+  "description": "Day two programming task for Andela Bootcamp\r -Word Count programming logic\r -Max and Min programming logic\r -Simple command line application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deee19/DayTwoProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deee19/DayTwoProject/issues"
+  },
+  "homepage": "https://github.com/Deee19/DayTwoProject#readme"
+}
