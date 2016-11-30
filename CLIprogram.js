@@ -1,17 +1,17 @@
  var request = require('superagent');
- var readlineSync = require('readline-sync');
+ //var readlineSync = require('readline-sync');
  var authorId;
 
- var accesstoken = readlineSync.question('Enter your acces token', {
-   hideEchoBack: true
- });
+//  var accesstoken = readlineSync.question('Enter your acces token', {
+//    hideEchoBack: true
+//  });
 
 
 
  request
    .get('https://api.medium.com/v1/me')
    .set({
-     Authorization: 'Bearer ' + accesstoken,
+     Authorization: 'Bearer 255ef8a2976195d21d100d224e3ea903d18deab8d8de75bebb128d0592acee7bd',
      ContentType: 'application/json',
      Accept: 'application / json',
      AcceptCharset: 'utf - 8'
@@ -26,7 +26,7 @@
    request
      .post('https://api.medium.com/v1/users/' + authorId + '/posts')
      .set({
-       Authorization: 'Bearer ' + accesstoken,
+       Authorization: 'Bearer 255ef8a2976195d21d100d224e3ea903d18deab8d8de75bebb128d0592acee7bd',
        ContentType: 'application / json',
        Accept: 'application / json',
        AcceptCharset: 'utf - 8'
